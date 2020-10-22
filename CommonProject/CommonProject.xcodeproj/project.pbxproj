@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B5D9EB7254174F500E34FAE /* CPTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5D9EB6254174F500E34FAE /* CPTabBarViewController.m */; };
+		1B5D9EBC2541813100E34FAE /* UIResponder+CPWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5D9EBB2541813100E34FAE /* UIResponder+CPWindow.m */; };
 		1BF0DF4B253D3C5E00D2FC1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0DF4A253D3C5E00D2FC1D /* AppDelegate.m */; };
 		1BF0DF4E253D3C5E00D2FC1D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0DF4D253D3C5E00D2FC1D /* SceneDelegate.m */; };
 		1BF0DF56253D3C6000D2FC1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF0DF55253D3C6000D2FC1D /* Assets.xcassets */; };
@@ -32,6 +33,8 @@
 /* Begin PBXFileReference section */
 		1B5D9EB5254174F500E34FAE /* CPTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTabBarViewController.h; sourceTree = "<group>"; };
 		1B5D9EB6254174F500E34FAE /* CPTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPTabBarViewController.m; sourceTree = "<group>"; };
+		1B5D9EBA2541813100E34FAE /* UIResponder+CPWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+CPWindow.h"; sourceTree = "<group>"; };
+		1B5D9EBB2541813100E34FAE /* UIResponder+CPWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+CPWindow.m"; sourceTree = "<group>"; };
 		1BF0DF46253D3C5E00D2FC1D /* CommonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF0DF49253D3C5E00D2FC1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1BF0DF4A253D3C5E00D2FC1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -325,6 +328,8 @@
 		1BF0DFE1253D440C00D2FC1D /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				1B5D9EBA2541813100E34FAE /* UIResponder+CPWindow.h */,
+				1B5D9EBB2541813100E34FAE /* UIResponder+CPWindow.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -506,6 +511,7 @@
 				1BF0DF9A253D40A800D2FC1D /* CPMineViewController+UI.m in Sources */,
 				1BF0DF4B253D3C5E00D2FC1D /* AppDelegate.m in Sources */,
 				1BF0DF84253D3F0100D2FC1D /* CPHomePageViewController+Notification.m in Sources */,
+				1B5D9EBC2541813100E34FAE /* UIResponder+CPWindow.m in Sources */,
 				1BF0DF80253D3EF700D2FC1D /* CPHomePageViewController+Delegate.m in Sources */,
 				1BF0DF89253D3FDB00D2FC1D /* CPHomePageRequest.m in Sources */,
 				1BF0DF5C253D3C6000D2FC1D /* main.m in Sources */,

@@ -6,8 +6,7 @@
 //
 
 #import "AppDelegate.h"
-
-#import "CPTabBarViewController.h"
+#import "UIResponder+CPWindow.h"
 
 @interface AppDelegate ()
 
@@ -19,14 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    if (@available(iOS 13.0, *)) {
-    } else {
-        self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-        self.window.rootViewController = [[CPTabBarViewController alloc] init];
-        [self.window makeKeyAndVisible];
-    }
-    
+    [self makeKeyAndVisibleWithScene:nil];
+   
     return YES;
 }
 

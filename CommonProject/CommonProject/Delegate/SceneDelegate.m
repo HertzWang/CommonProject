@@ -6,8 +6,7 @@
 //
 
 #import "SceneDelegate.h"
-
-#import "CPTabBarViewController.h"
+#import "UIResponder+CPWindow.h"
 
 @interface SceneDelegate ()
 
@@ -20,11 +19,7 @@
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-    UIWindowScene *screen = (UIWindowScene *)scene;
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [[CPTabBarViewController alloc] init];
-    [self.window setWindowScene:screen];
-    [self.window makeKeyAndVisible];
+    [self makeKeyAndVisibleWithScene:scene];
 }
 
 

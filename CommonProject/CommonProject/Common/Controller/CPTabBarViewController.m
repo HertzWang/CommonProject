@@ -26,7 +26,10 @@
 }
 
 - (UINavigationController *)_navigationWithClass:(Class)class title:(NSString *)title imageName:(NSString *)imageName selectedImageName:(NSString *)selectedImageName {
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[(UIViewController *)[class alloc] init]];
+    UIViewController *vc = [(UIViewController *)[class alloc] init];
+    vc.view.backgroundColor = [UIColor whiteColor];
+    vc.title = title;
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     nav.tabBarItem = [[UITabBarItem alloc] initWithTitle:title image:[UIImage imageNamed:imageName] selectedImage:[UIImage imageNamed:selectedImageName]];
     return nav;
 }
