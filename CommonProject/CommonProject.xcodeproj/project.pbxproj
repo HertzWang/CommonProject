@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B5D9EB7254174F500E34FAE /* CPTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5D9EB6254174F500E34FAE /* CPTabBarViewController.m */; };
 		1BF0DF4B253D3C5E00D2FC1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0DF4A253D3C5E00D2FC1D /* AppDelegate.m */; };
 		1BF0DF4E253D3C5E00D2FC1D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0DF4D253D3C5E00D2FC1D /* SceneDelegate.m */; };
 		1BF0DF56253D3C6000D2FC1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF0DF55253D3C6000D2FC1D /* Assets.xcassets */; };
@@ -24,12 +25,13 @@
 		1BF0DFA3253D40B300D2FC1D /* CPMineViewController+Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0DFA2253D40B300D2FC1D /* CPMineViewController+Delegate.m */; };
 		1BF0DFA7253D40BA00D2FC1D /* CPMineViewController+Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0DFA6253D40BA00D2FC1D /* CPMineViewController+Notification.m */; };
 		1BF0DFAD253D413700D2FC1D /* CPMineRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0DFAC253D413700D2FC1D /* CPMineRequest.m */; };
-		1BF0E003253D68A000D2FC1D /* CYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0E002253D68A000D2FC1D /* CYBaseViewController.m */; };
 		1BF0E011253D6E4B00D2FC1D /* CPHomePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0E010253D6E4B00D2FC1D /* CPHomePageView.m */; };
 		94CAEEF9C135931F3A146008 /* libPods-CommonProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EDA26D38D336CACF53E35C /* libPods-CommonProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B5D9EB5254174F500E34FAE /* CPTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTabBarViewController.h; sourceTree = "<group>"; };
+		1B5D9EB6254174F500E34FAE /* CPTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPTabBarViewController.m; sourceTree = "<group>"; };
 		1BF0DF46253D3C5E00D2FC1D /* CommonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF0DF49253D3C5E00D2FC1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1BF0DF4A253D3C5E00D2FC1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -74,8 +76,6 @@
 		1BF0DFE9253D631400D2FC1D /* CPColorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPColorMacro.h; sourceTree = "<group>"; };
 		1BF0DFEA253D632900D2FC1D /* CPNotoficationMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPNotoficationMacro.h; sourceTree = "<group>"; };
 		1BF0DFEB253D633C00D2FC1D /* CPNetworkMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPNetworkMacro.h; sourceTree = "<group>"; };
-		1BF0E001253D68A000D2FC1D /* CYBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYBaseViewController.h; sourceTree = "<group>"; };
-		1BF0E002253D68A000D2FC1D /* CYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYBaseViewController.m; sourceTree = "<group>"; };
 		1BF0E00E253D6E3F00D2FC1D /* CPHomePageViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPHomePageViewProtocol.h; sourceTree = "<group>"; };
 		1BF0E00F253D6E4B00D2FC1D /* CPHomePageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPHomePageView.h; sourceTree = "<group>"; };
 		1BF0E010253D6E4B00D2FC1D /* CPHomePageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPHomePageView.m; sourceTree = "<group>"; };
@@ -309,8 +309,8 @@
 		1BF0DFDF253D43DE00D2FC1D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1BF0E001253D68A000D2FC1D /* CYBaseViewController.h */,
-				1BF0E002253D68A000D2FC1D /* CYBaseViewController.m */,
+				1B5D9EB5254174F500E34FAE /* CPTabBarViewController.h */,
+				1B5D9EB6254174F500E34FAE /* CPTabBarViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -499,12 +499,12 @@
 				1BF0DF7C253D3EE700D2FC1D /* CPHomePageViewController+Config.m in Sources */,
 				1BF0DFA3253D40B300D2FC1D /* CPMineViewController+Delegate.m in Sources */,
 				1BF0DF9F253D40AD00D2FC1D /* CPMineViewController+Config.m in Sources */,
+				1B5D9EB7254174F500E34FAE /* CPTabBarViewController.m in Sources */,
 				1BF0E011253D6E4B00D2FC1D /* CPHomePageView.m in Sources */,
 				1BF0DF78253D3EE000D2FC1D /* CPHomePageViewController+UI.m in Sources */,
 				1BF0DF8F253D405D00D2FC1D /* CPMineViewController.m in Sources */,
 				1BF0DF9A253D40A800D2FC1D /* CPMineViewController+UI.m in Sources */,
 				1BF0DF4B253D3C5E00D2FC1D /* AppDelegate.m in Sources */,
-				1BF0E003253D68A000D2FC1D /* CYBaseViewController.m in Sources */,
 				1BF0DF84253D3F0100D2FC1D /* CPHomePageViewController+Notification.m in Sources */,
 				1BF0DF80253D3EF700D2FC1D /* CPHomePageViewController+Delegate.m in Sources */,
 				1BF0DF89253D3FDB00D2FC1D /* CPHomePageRequest.m in Sources */,
